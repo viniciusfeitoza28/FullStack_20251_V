@@ -25,20 +25,20 @@ a{
 h3{
     color: white;
 }
-
+ 
 table {
     font-family: arial, sans-serif; 
     border-collapse: collapse;
     width: 30%;
   } 
   
-  td, th {
+ th {
     border: 1px solid white;
-    text-align: left;
-    padding: 2px;
+    text-align: center;
+    padding: 8px;
   }
   
-  tr:nth-child(even) {
+  tr:nth-child(ever) {
     background-color:black;
   }
 
@@ -63,4 +63,15 @@ table {
   
 #h1{
     color: lightblue;
+}
+
+.tr{
+    color: yellow;
+    text-align: center;
+}
+
+#td{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
 }
