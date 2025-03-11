@@ -1,0 +1,30 @@
+.flex{
+    background-color: rgb(250, 250, 250);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.flex div{
+    display: flex;
+    color: white;
+    background-color: blueviolet;
+    height: 100px;
+   
+    
+    
+    
+}
+#div1{
+    font-size: larger;
+    display: flex;
+    align-self: center;
+    
+}
+#div2{
+    display: flex;
+    align-self: flex-end;
+    background-color: white;
+    justify-self: center;
+}
