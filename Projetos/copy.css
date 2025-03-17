@@ -75,6 +75,7 @@ td{
 }
 #a{
     color: darkred;
+    padding-left: 100px;
 }
 .div_6{
     display: flex;
