@@ -24,3 +24,9 @@ input{
     justify-content: center;
     color: white;
 }
+.txt{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+}
