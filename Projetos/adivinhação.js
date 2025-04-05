@@ -6,8 +6,4 @@ function number(){
     else if(num < i || num > i){
         document.getElementById('h2_1').style.setProperty("background-color","red")
     }
-       
-    
-        
-    
 }
