@@ -3,6 +3,8 @@ let ctx = canvas.getContext('2d');
 
 
 
+
+
 function desenhar_quadrado(color1,x1,y1,w1,h1){
    
 ctx.beginPath();
@@ -11,6 +13,7 @@ ctx.fillRect(x1,y1,w1,h1);
 ctx.closePath()
 
 }
+
 
 desenhar_quadrado('blue',0,0,30,30)
 desenhar_quadrado('red',270,0,30,30)
@@ -110,3 +113,5 @@ ctx2.lineTo(150,130) //vertice 2(baixo esquerda)
 ctx2.lineTo(180,150)//vertice 3(baixo direita)
 ctx2.fill()
 ctx2.closePath()
+
+

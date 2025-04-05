@@ -82,8 +82,13 @@ ctx2.closePath();
 ctx2.beginPath();
 ctx2.lineWidth = 2;
 ctx2.strokeStyle = 'blue';
+
 ctx2.moveTo(0,400);//'move' a linha do ponto de partida ate as coordenadas
 ctx2.lineTo(360,40);//'move' a linha do ponto atual até as coordenadas
+
+ctx2.moveTo(0,400);
+ctx2.lineTo(360,40);
+
 ctx2.stroke();
 ctx2.closePath();
 
