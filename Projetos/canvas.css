@@ -1,7 +1,9 @@
 .a{
     color:rgb(21, 176, 214);
+
     display: flex;
     justify-content: flex-start;
+
 }
 a:hover{
     color: black;
@@ -13,6 +15,7 @@ a:hover{
     background-color: aquamarine;
     align-items: center;
 }
+
 .div_container{
     display: flex;
 }
@@ -26,6 +29,7 @@ div{
     background-color: black; /* Cor da linha */
     margin: 0 10px; /* Espaçamento entre os links */
 }
+
 
 
 
