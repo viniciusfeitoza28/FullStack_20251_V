@@ -1,0 +1,32 @@
+.a{
+    color:rgb(21, 176, 214);
+    display: flex;
+    justify-content: flex-start;
+}
+a:hover{
+    color: black;
+} 
+#canvas{
+    border: solid black;
+}
+#canvas2{
+    background-color: aquamarine;
+    align-items: center;
+}
+.div_container{
+    display: flex;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+.separator {
+    width: 1px; /* Largura da linha */
+    height: 20px; /* Altura da linha */
+    background-color: black; /* Cor da linha */
+    margin: 0 10px; /* Espaçamento entre os links */
+}
+
+
+
+
