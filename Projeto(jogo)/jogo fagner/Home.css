@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+#txt1{
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#a1{
+    display: block; /*Faz o link ficar em toda a área da caixa(uso do chat)*/
+    background-color: red;
+    color: white;
+    font-style: oblique;
+    padding: 15px 20px;
+    text-decoration: none;/*Tira o sublinhado do link(uso do chat)*/
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s;/*Ocorre o crescimento e a mudança da cor de fundo(uso do chat)*/
+}
+#a1:hover{
+   background-color: darkred;
+   transform: scale(1.1);/*Aumenta o tamanho do botão em 10% ao passar o mouse(uso do chat)*/
+}
+#img{
+    border-radius: 150px ;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+}
+.bio{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 200px;
+}
+#p1{
+    padding-left: 120px;
+}
