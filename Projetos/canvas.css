@@ -2,7 +2,6 @@
     color:rgb(21, 176, 214);
     display: flex;
     justify-content: start;
-
 }
 a:hover{
     color: black;
@@ -17,7 +16,7 @@ a:hover{
 }
 
 
-div{
+.div{
     display: flex;
     justify-content: center;
 }
@@ -27,6 +26,10 @@ div{
     background-color: black; /* Cor da linha */
     margin: 0 10px; /* Espaçamento entre os links */
 }
+
+
+
+
 body{
     background-color: aqua;
 }
