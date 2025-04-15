@@ -23,7 +23,8 @@ body{
 }
 #a1:hover{
    background-color: darkred;
-   transform: scale(1.1);/*Aumenta o tamanho do botão em 10% ao passar o mouse(uso do chat)*/
+   transform: scale(1.1);/*Aumenta o tamanho do botão em 10% ao passar o mouse,
+   a altura e a largura do botao é multiplicado por 1.1(uso do chat)*/
 }
 #img{
     border-radius: 150px ;
@@ -42,4 +43,43 @@ body{
 }
 #p1{
     padding-left: 120px;
+}
+.contato{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+}
+.contato a{
+    display: inline-block;
+}
+.contato img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+.contato a:hover img {
+    transform: scale(1.1);
+}
+.contato2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 450px;
+    margin-top: -50px;
+}
+.contato2 a{
+    display: inline-block;
+}
+.contato2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+.contato2 a:hover img{
+    transform: scale(1.1);
 }
