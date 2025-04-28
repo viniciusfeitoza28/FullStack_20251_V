@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resposta</title>
+    <link rel="stylesheet" href="resposta.css">
+</head>
+<body>
+    <h1>Bem vindo!</h1>
+
+    <% if (erro) { %>
+        <h2 style="color: red;"><%= erro %></h2>
+        <a href="/login">Tentar novamente</a>
+    <% } else { %>
+        <% if (nome) { %>
+            <p><strong>Nome:</strong> <%= nome %></p>
+        <% } %>
+        <p><strong>Usuário:</strong> <%= user %></p>
+        <p><strong>Senha:</strong> <%= senha %></p>
+
+        <a href="/login">Voltar para login</a> | <a href="/cadastrar">Cadastrar novo</a>
+    <% } %>
+</body>
+</html>
+
+
