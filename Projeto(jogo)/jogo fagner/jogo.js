@@ -14,7 +14,7 @@ const nave = {
 
 function desenhar() {
     ctx.clearRect(0, 0, canvas.width, canvas.height); 
-    ctx.drawImage(img, nave.x, nave.y, nave.largura, nave.altura);//redesenha
+    ctx.drawImage(img, nave.x, nave.y, nave.largura, nave.altura);
   }
 
 let mouseX = 150;
