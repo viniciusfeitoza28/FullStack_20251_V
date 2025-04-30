@@ -1,9 +1,3 @@
-#center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 body{
     display: flex;
     flex-direction: column;
@@ -13,16 +7,21 @@ body{
     color: white;
 }
 
-#canvas{
-    background-color: white;
-}
+
+
 
 .canvascontainer{
     display: flex;
+    flex-direction: column;
 }
 
-#borda{
-    border: solid white;
+.borda{
+    border: solid red;
     border-radius: 8px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
 }
 
