@@ -28,6 +28,7 @@ body{
 }
 #img{
     border-radius: 150px ;
+    box-shadow: 0 0 30px red;
 }
 .imagem{
     display: flex;
@@ -59,6 +60,7 @@ body{
     height: 50px;
     border-radius: 50px;
     transition: transform 0.2s;
+    box-shadow: 0 0 20px red;
 }
 .contato a:hover img {
     transform: scale(1.1);
@@ -70,6 +72,7 @@ body{
     align-items: center;
     padding-left: 450px;
     margin-top: -50px;
+    
 }
 .contato2 a{
     display: inline-block;
@@ -79,6 +82,7 @@ body{
     height: 50px;
     border-radius: 50px;
     transition: transform 0.2s;
+    box-shadow: 0 0 20px red;
 }
 .contato2 a:hover img{
     transform: scale(1.1);

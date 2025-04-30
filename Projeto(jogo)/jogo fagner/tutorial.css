@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+   
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-style: italic;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#a{
+    display: block; /*Faz o link ficar em toda a área da caixa(uso do chat)*/
+    background-color: red;
+    color: white;
+    font-style: oblique;
+    padding: 15px 10px;
+    text-decoration: none;/*Tira o sublinhado do link(uso do chat)*/
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s;/*Ocorre o crescimento e a mudança da cor de fundo(uso do chat)*/
+}
+#a:hover{
+   background-color: darkred;
+   transform: scale(1.1);/*Aumenta o tamanho do botão em 10% ao passar o mouse,
+   a altura e a largura do botao é multiplicado por 1.1(uso do chat)*/
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+.principal div{
+    flex-direction: column;
+    display: flex;
+    height: 500px;
+    width: 600px;
+    border: 2px solid red ;
+    gap: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px red;/*sombreamento da borda, 0 e 0 é o deslocamento horizontal e vertical*/
+}
+.txt2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-left: 3px solid white ;
+    border-right: 3px solid white ;
+    border-top: 5px solid white ;
+    border-bottom: 5px solid white ;
+    margin: 10px;
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 220px;
+
+}
+#p1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3px;
+}
+#p2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px;
+}
+.img1{
+    position: relative;
+    left: 68px;
+    top: 37px;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+    margin: 27px;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.img3{
+    position: relative;
+    left: 132px;
+    top: -82px;
+}
+.lista{
+    position: relative;
+    left: 200px;
+    top: -182px;
+    flex-direction: column;
+    color: white;
+}
+#p3{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: -220px;
+}
+.txt3{
+    position: relative;
+    text-align: center;
+    color: white;
+    border-left: 3px solid white ;
+    border-right: 3px solid white ;
+    border-top: 5px solid white ;
+    border-bottom: 5px solid white ;
+    margin: 10px;
+    border-radius: 10px;
+    width: 160px;
+    left: 210px;
+    top: -200px;
+}
+.img4{
+    position: relative;
+    top: -220px;
+    left: 250px;
+}
+

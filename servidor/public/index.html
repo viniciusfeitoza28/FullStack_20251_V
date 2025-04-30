@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Servidor rodando...</h1>
-        <h2>Exxemplo de GET</h2>
+        <h2>Exemplo de GET</h2>
         <form action="/inicio" method="get">
             <input type="text" name="Nome">
             <input type="submit" value="Clique aqui para GET!">
@@ -29,7 +29,7 @@
             <p>Nome: <input type="text" name="Nome"></p>
             <p>Login: <input type="text" name="Login"></p>
             <p>Senha: <input type="password" name="Senha" ></p>
-            <p>Data de nascimento: <input type="date" name="Nascimento"></p>
+            <p>Data de nascimento: <input type="date" name="Nasc"></p>
             <input type="submit" value="Cadastrar!">
         </form>
 
@@ -38,5 +38,13 @@
             <p>Insira um valor: <input type="number" name="valor"></p>
             <input type="submit" value="Clique aqui para gerar divs!">
         </form>
+
+        <h2>Login de usúario:</h2>
+        <form method="post" action="/logar">
+            <p>Login: <input type="text" name="Login"></p>
+            <p>Senha: <input type="password" name="Senha" ></p>
+            <input type="submit" value="Login!">
+        </form>
+
     </body>
 </html>
