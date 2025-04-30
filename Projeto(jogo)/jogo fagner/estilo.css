@@ -1,0 +1,28 @@
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+#canvas{
+    background-color: white;
+}
+
+.canvascontainer{
+    display: flex;
+}
+
+#borda{
+    border: solid white;
+    border-radius: 8px;
+}
+
