@@ -42,3 +42,27 @@ body{
     justify-content: center;
     gap: 20px;
 }
+
+.bordercontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.border{
+    margin-top: -200px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid red;
+    border-radius: 8px;
+    width: 700px;
+    
+}
+
+#h1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+}

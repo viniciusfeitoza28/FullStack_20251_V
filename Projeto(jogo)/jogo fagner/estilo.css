@@ -7,9 +7,6 @@ body{
     color: white;
 }
 
-
-
-
 .canvascontainer{
     display: flex;
     flex-direction: column;
@@ -22,7 +19,8 @@ body{
 
 #center{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+
 }
 
 #a{
@@ -45,5 +43,11 @@ body{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+#red{
+    color: #ff0000;
+    display: flex;
+    justify-content: center;  
 }
 
